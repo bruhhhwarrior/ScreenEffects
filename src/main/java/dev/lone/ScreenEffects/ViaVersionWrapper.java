@@ -13,7 +13,7 @@ public class ViaVersionWrapper
         int minDiff = Integer.MAX_VALUE;
         for (Version value : Version.values())
         {
-            int diff = Math.abs(value.id - versionId);
+            int diff = Math.abs(value.getProtocol() - versionId);
             if (diff < minDiff)
             {
                 minDiff = diff;
