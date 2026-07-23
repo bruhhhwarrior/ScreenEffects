@@ -91,7 +91,7 @@ public final class Main extends JavaPlugin implements Listener
         else
             version = Version.get();
 
-        if(version.id <= Version.v1_16_R3.id)
+        if(version.getProtocol() <= Version.v1_16_R3.getProtocol())
             return true;
 
         switch (version)
@@ -107,6 +107,9 @@ public final class Main extends JavaPlugin implements Listener
             case v1_21_8:
             case v1_21_10:
             case v1_21_11:
+            case v26_1_1:
+            case v26_1_2:
+            case v26_2:
                 return true;
         }
 
