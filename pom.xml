@@ -84,10 +84,6 @@
 
     <repositories>
         <repository>
-            <id>matteodev</id>
-            <url>https://maven.devs.beer/</url>
-        </repository>
-        <repository>
             <id>viaversion-repo</id>
             <url>https://repo.viaversion.com</url>
         </repository>
@@ -123,7 +119,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>26.1.2-R0.1-SNAPSHOT</version>
+            <version>26.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -134,7 +130,7 @@
         <dependency>
             <groupId>beer.devs</groupId>
             <artifactId>FastNbt-jar</artifactId>
-            <version>1.4.18</version>
+            <version>1.4.25</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -156,9 +152,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>dev.lone</groupId>
-            <artifactId>api-itemsadder</artifactId>
-            <version>4.0.2-beta-release-11</version>
+            <groupId>beer.devs</groupId>
+            <artifactId>itemsadder-api</artifactId>
+            <version>4.0.18-beta-10</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
